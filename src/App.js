@@ -70,6 +70,9 @@ const Banner = styled.div`
   align-items: center;
   justify-content: center;
   transition: background-image 0.5s ease;
+    @media (max-width: 768px) {
+    height: 900px; /* Chiều cao banner trên điện thoại */
+  }
 `;
 
 const Letter = styled.div`
